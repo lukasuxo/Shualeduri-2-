@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-around;
+    padding: 64px;
+}
+.top{
+    display: flex;
+    padding: 152px;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    padding: 131px;
+}
+
+.button-1 {
+    width: 175px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E8EFF2;
+    color: #162542;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.top {
+    display: flex;
+}
+
+h5 {
+    color: #162542;
+    font-family: Barlow;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px;
+    /* 100% */
+    text-transform: uppercase;
+    width: 445px;
+}
+
+.p-1 {
+    width: 445px;
+}
+
+.button-2 {
+    cursor: pointer;
+    width: 175px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF9B62;
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    text-transform: uppercase;
+}
+
+h4 {
+    width: 255px;
+    color: #162542;
+    font-family: Barlow;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    /* 112.5% */
+    text-transform: uppercase;
+}
+
+.p-2 {
+    width: 255px;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.same {
+    width: 255px;
+    color: #162542;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    /* 116.667% */
+    text-transform: uppercase;
+}
+
+.same-p {
+    width: 255px;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.last-p {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+span {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.middle{
+    display: flex;
+}
+.last{
+    display: flex;
+}
+.last-text{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
