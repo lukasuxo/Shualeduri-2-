@@ -16,18 +16,38 @@ body {
 
 .Header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 64px;
+
 }
-.top{
+
+.top {
     display: flex;
     padding: 152px;
+    justify-content: space-between;
+    align-items: center;
 }
-.middle{
+
+.top-class {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    gap: 24px;
 }
-.last{
+
+.middle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.last {
     display: flex;
     justify-content: space-around;
     padding: 131px;
@@ -67,6 +87,13 @@ h5 {
 
 .p-1 {
     width: 445px;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
 }
 
 .button-2 {
@@ -75,7 +102,7 @@ h5 {
     height: 58px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: #FF9B62;
+    background: #F16718;
     color: #FFF;
     font-family: Barlow;
     font-size: 16px;
@@ -84,6 +111,25 @@ h5 {
     line-height: 26px;
     /* 162.5% */
     text-transform: uppercase;
+}
+
+.but-text-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    text-transform: uppercase;
+}
+
+.top-div-but {
+    display: flex;
+    gap: 40px;
 }
 
 h4 {
@@ -150,14 +196,42 @@ span {
     font-weight: 500;
     line-height: 26px;
 }
-.middle{
+
+.last {
     display: flex;
 }
-.last{
+
+.last-text-div {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.last-text{
-    display: flex;
-    justify-content: end;
-    align-items: end;
+
+.txhalf {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.half {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.button-1:hover{
+    background-color: #162542;
+    color: white;
+    cursor: pointer;
+}
+.button-2:hover{
+    background: #FF9B62;
+    color: white;
+    cursor: pointer;
 }
