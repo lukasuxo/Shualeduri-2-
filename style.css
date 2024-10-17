@@ -11,7 +11,7 @@ body {
 
 .container {
     width: 100%;
-    height: 1870px;
+    padding: 30px 100px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -21,7 +21,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 64px;
-
 }
 
 .top {
@@ -37,12 +36,16 @@ body {
 }
 
 .middle {
+    position: relative;
+    left: -263px;
     display: flex;
     justify-content: space-evenly;
     padding-top: 27px;
 }
 
 .middle-end {
+    position: relative;
+    left: 97px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,8 +54,10 @@ body {
 }
 
 .last {
+    position: relative;
+    left: -63px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 131px;
 }
 
@@ -173,6 +178,8 @@ h4 {
 }
 
 .same-p {
+    position: relative;
+    top: 17px;
     width: 255px;
     color: #7B8BAD;
     font-family: Barlow;
@@ -204,6 +211,7 @@ span {
 
 .last {
     display: flex;
+
 }
 
 .last-text-div {
@@ -241,4 +249,27 @@ span {
     background: #FF9B62;
     color: white;
     cursor: pointer;
+}
+
+.img-top {
+    position: relative;
+    top: -237px;
+    left: 10px;
+}
+
+.midd-img {
+    position: relative;
+    width: 255px;
+    height: 236px;
+    top: 247px;
+}
+
+.last-img4 {
+    position: relative;
+    top: -3.7px;
+}
+
+.lastimg {
+    position: relative;
+    top: -27px;
 }
