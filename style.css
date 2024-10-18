@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 90px;
 }
 
 .top-class {
@@ -41,6 +42,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding-top: 27px;
+}
+
+.keyboard11{
+    width: 600px;
 }
 
 .middle-end {
@@ -209,6 +214,11 @@ span {
     line-height: 26px;
 }
 
+.img-width{
+    width: 40px;
+    height: 40px;
+}
+
 .last {
     display: flex;
 
@@ -252,9 +262,8 @@ span {
 }
 
 .img-top {
-    position: relative;
-    top: -237px;
-    left: 10px;
+    position: absolute;
+    right: 0;
 }
 
 .midd-img {
@@ -272,4 +281,10 @@ span {
 .lastimg {
     position: relative;
     top: -27px;
+}
+
+@media (width < 768px){
+    body{
+        background: red;
+    }
 }
