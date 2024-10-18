@@ -283,8 +283,30 @@ span {
     top: -27px;
 }
 
-@media (width < 768px){
-    body{
-        background: red;
+@media (width < 769px){
+     .img-top{
+        display: none;
     }
+    .top{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        left: 10px;
+    }
+    .midd-img{
+        display: none;
+    }
+
+    .middle{
+        display: flex;
+        position: relative;
+       left: 0px;
+       }
+
+       .middle-end{
+        display: flex;
+        flex-direction: row;
+
+       }
+
 }
