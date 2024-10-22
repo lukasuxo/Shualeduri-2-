@@ -335,6 +335,7 @@ span {
 
 @media (max-width: 375px) {
     .container {
+        overflow-x: hidden;
         padding: 20px;
     }
 
@@ -350,14 +351,18 @@ span {
     }
 
     .text1 {
+       margin-left: -15px;
         font-size: 40px;
     }
 
     .text2 {
-        font-size: 16px;
+       margin-left: -10px;
+       font-size: 16px;
+       width: 330px
     }
 
     .image {
+        margin-left:-25px;
         width: 100%;
     }
 
@@ -411,8 +416,10 @@ span {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
+   
     .container {
+        overflow-x: hidden;
         padding: 20px;
     }
 
