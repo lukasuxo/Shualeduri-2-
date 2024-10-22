@@ -441,10 +441,12 @@ span {
 
     .text1 {
         font-size: 40px;
+        margin-left: -20px;
     }
 
     .text2 {
         font-size: 16px;
+        margin-left:-20px;
     }
 
     .image {
@@ -453,6 +455,14 @@ span {
         width: 300px;
         height: 250px;
     }
+   .text3{
+    position: relative;
+    top: -70px;
+    left: 170px;
+   }
+   .button-2{
+    margin-left: -20px;
+   }
 
     .cube2 {
         display: none;
